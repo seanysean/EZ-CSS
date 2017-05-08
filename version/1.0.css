@@ -1,0 +1,294 @@
+/* EZ-CSS created by Sean B. You can view the project on github: https://github.com/seanysean/EZ-CSS */
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif, verdana;
+  height: 100%;
+}
+
+/*box shadows*/
+.ez-shadow-white {
+  box-shadow: 1px 1px 10px #fff;
+}
+
+.ez-shadow-black {
+  box-shadow: 1px 1px 10px #000;
+}
+
+.ez-shadow-green {
+  box-shadow: 1px 1px 10px #37B264;
+}
+
+.ez-shadow-blue {
+  box-shadow: 1px 1px 10px #06F;
+}
+
+.ez-shadow-red {
+  box-shadow: 1px 1px 10px #e15151;
+}
+
+.ez-shadow-gray {
+  box-shadow: 1px 1px 10px #7F7F7F;
+}
+
+.ez-shadow-dark-gray {
+  box-shadow: 1px 1px 10px #333;
+}
+
+/*Basic features*/
+.ez-code-small {
+  padding: 3px;
+  font-weight: 100;
+  border-radius: 5px;
+}
+
+.ez-circle {
+  border-radius: 50%;
+}
+
+.ez-popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+.ez-popup * {
+  display: inline-block;
+}
+
+.ez-button {
+  text-align: center;
+  box-sizing: border-box;
+  padding: 10px;
+  display: inline-block;
+  margin: auto;
+  transition: 0.25s ease;
+  cursor: pointer;
+}
+
+.ez-button:hover {
+  opacity: 0.8;
+}
+
+.ez-overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #7F7F7F;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.ez-footer {
+  padding: 10px;
+  box-sizing: content-box;
+}
+
+.ez-topbar {
+  width: 100%;
+  position: fixed;
+  font-size: 1em;
+  top: 0;
+  height: 50px;
+  padding: 10px;
+}
+
+/*Cards*/
+.ez-card {
+  display: inline-block;
+  vertical-align: top;
+  padding: 20px;
+  word-wrap: break-word;
+}
+
+.ez-card-1 {
+  width: 97%;
+  margin: 10px auto;
+  padding: 20px;
+  word-wrap: break-word;
+}
+
+.ez-card-2 {
+  width: 45%;
+  margin: 1%;
+  margin-left: 1.4%;
+  padding: 3%;
+  display: inline-block;
+  vertical-align: top;
+  word-wrap: break-word;
+}
+
+.ez-card-3 {
+  width: 26%;
+  margin: 5%;
+  margin-left: 1.4%;
+  padding: 3%;
+  display: inline-block;
+  vertical-align: top;
+  word-wrap: break-word;
+}
+
+.ez-fixed {
+  position: fixed;
+}
+
+.ez-card-full {
+  width: 100%;
+  height: 100%;
+  margin: 20px 0;
+  padding: 3%;
+}
+
+/*Background colors*/
+.ez-dark-gray {
+  background-color: #333;
+}
+
+.ez-white {
+  background-color: #fff;
+}
+
+.ez-green {
+  background-color: #37B264;
+}
+
+.ez-blue {
+  background-color: #06F;
+}
+
+.ez-red {
+  background-color: #e15151;
+}
+
+.ez-gray {
+  background-color: #7F7F7F;
+}
+
+/*Text colors*/
+.ez-text-dark-gray {
+  color: #333;
+}
+
+.ez-text-white {
+  color: #fff;
+}
+
+.ez-text-green {
+  color: #37B264;
+}
+
+.ez-text-blue {
+  color: #06F;
+}
+
+.ez-text-red {
+  color: #e15151;
+}
+
+.ez-text-gray {
+  color: #7F7F7F;
+}
+
+.ez-text-black {
+  color: #000;
+}
+
+/*Text Sizes*/
+.ez-very-small {
+  font-size: 0.6em;
+}
+
+.ez-small {
+  font-size: 0.8em;
+}
+
+.ez-medium {
+  font-size: 1em;
+}
+
+.ez-medium-large {
+  font-size: 1.5em;
+}
+
+.ez-large {
+  font-size: 2em;
+}
+
+.ez-very-large {
+  font-size: 2.3em;
+}
+
+/*Text shadows*/
+.ez-text-shadow-white {
+  text-shadow: 1px 1px 10px #fff;
+}
+
+.ez-text-shadow-black {
+  text-shadow: 1px 1px 10px #000;
+}
+
+.ez-text-shadow-green {
+  text-shadow: 1px 1px 10px #5cb85c;
+}
+
+.ez-text-shadow-blue {
+  text-shadow: 1px 1px 10px #06F;
+}
+
+.ez-text-shadow-red {
+  text-shadow: 1px 1px 10px #e15151;
+}
+
+.ez-text-shadow-gray {
+  text-shadow: 1px 1px 10px #7F7F7F;
+}
+
+.ez-text-shadow-dark-gray {
+  text-shadow: 1px 1px 10px #333;
+}
+
+.ez-center {
+  margin: auto;
+  display: inline-block;
+}
+
+@media (max-width: 650px) {
+  .ez-card-2,
+  .ez-card-1 {
+    width: 90%;
+    margin-top: 10px;
+    display: block;
+    margin: 20px auto;
+  }
+
+  .ez-card-3 {
+    width: 38%;
+    margin-top: 10px;
+    margin: 5%;
+  }
+}
+@media (max-width: 505px) {
+  .ez-card-3 {
+    width: 90%;
+    margin-top: 10px;
+    margin: 20px auto;
+    display: block;
+  }
+  .ez-card-1, .ez-card-2, .ez-card-3, .ez-card-full {
+    padding: 20px;
+  }
+}
