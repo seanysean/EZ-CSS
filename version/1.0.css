@@ -264,6 +264,7 @@ html {
 .ez-center {
   margin: auto;
   display: inline-block;
+  text-align: center;
 }
 
 @media (max-width: 650px) {
