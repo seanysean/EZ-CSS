@@ -48,6 +48,15 @@ html {
   border-radius: 5px;
 }
 
+.ez-code-large {
+  padding: 3px;
+  font-weight: 100;
+  border-radius: 5px;
+  display: block;
+  width: 95%;
+  margin: 10px auto;
+}
+
 .ez-circle {
   border-radius: 50%;
 }
