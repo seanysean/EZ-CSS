@@ -116,6 +116,12 @@ html {
   padding: 10px;
 }
 
+.ez-center {
+  margin: auto;
+  display: table;
+  text-align: center;
+}
+
 /*Cards*/
 .ez-card {
   display: inline-block;
@@ -270,11 +276,6 @@ html {
   text-shadow: 1px 1px 10px #333;
 }
 
-.ez-center {
-  margin: auto;
-  display: inline-block;
-  text-align: center;
-}
 
 @media (max-width: 650px) {
   .ez-card-2,
