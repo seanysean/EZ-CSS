@@ -289,6 +289,9 @@ html {
     margin-top: 10px;
     margin: 5%;
   }
+  .ez-popup {
+    width: 80%;
+  }
 }
 @media (max-width: 505px) {
   .ez-card-3 {
@@ -301,3 +304,9 @@ html {
     padding: 20px;
   }
 }
+@media (max-width: 430px){
+  .ez-popup {
+    width: 90%;
+  }
+}
+
