@@ -81,6 +81,7 @@ html {
   margin: auto;
   transition: 0.25s ease;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .ez-button:hover {
