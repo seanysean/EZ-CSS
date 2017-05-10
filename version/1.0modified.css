@@ -209,6 +209,10 @@ html {
   background-color: #7F7F7F;
 }
 
+.ez-black {
+  background-color: #000;
+}
+
 /*Text colors*/
 .ez-text-dark-gray {
   color: #333;
