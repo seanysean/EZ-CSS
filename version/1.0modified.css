@@ -1,5 +1,4 @@
 /* EZ-CSS created by Sean B. You can view the project on github: https://github.com/seanysean/EZ-CSS */
-
 * {
   box-sizing: border-box;
 }
@@ -27,6 +26,10 @@ html {
 
 .ez-shadow-blue {
   box-shadow: 1px 1px 10px #06F;
+}
+
+.ez-shadow-light-blue {
+  box-shadow: 1px 1px 10px #34AAF2;
 }
 
 .ez-shadow-red {
@@ -194,6 +197,10 @@ html {
   background-color: #06F;
 }
 
+.ez-light-blue {
+  background-color: #34AAF2;
+}
+
 .ez-red {
   background-color: #e15151;
 }
@@ -216,7 +223,11 @@ html {
 }
 
 .ez-text-blue {
-  color: #06F;
+  color: #06f;
+}
+
+.ez-text-light-blue {
+  color: #34AAF2;
 }
 
 .ez-text-red {
@@ -273,6 +284,10 @@ html {
   text-shadow: 1px 1px 10px #06F;
 }
 
+.ez-text-shadow-light-blue {
+  text-shadow: 1px 1px 10px #34AAF2;
+}
+
 .ez-text-shadow-red {
   text-shadow: 1px 1px 10px #e15151;
 }
@@ -284,7 +299,6 @@ html {
 .ez-text-shadow-dark-gray {
   text-shadow: 1px 1px 10px #333;
 }
-
 
 @media (max-width: 650px) {
   .ez-card-2,
@@ -300,6 +314,7 @@ html {
     margin-top: 10px;
     margin: 5%;
   }
+
   .ez-popup {
     width: 80%;
   }
@@ -311,11 +326,12 @@ html {
     margin: 20px auto;
     display: block;
   }
+
   .ez-card-1, .ez-card-2, .ez-card-3, .ez-card-full {
     padding: 20px;
   }
 }
-@media (max-width: 430px){
+@media (max-width: 430px) {
   .ez-popup {
     width: 90%;
   }
