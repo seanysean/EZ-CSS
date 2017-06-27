@@ -196,6 +196,14 @@ html {
   text-align: center;
 }
 
+.ez-hr {
+  width: 100%;
+  height: 1px;
+  display: block;
+  margin: auto;
+  background: #fff;
+}
+
 /*Cards*/
 .ez-card {
   display: inline-block;
