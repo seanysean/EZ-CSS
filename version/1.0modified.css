@@ -178,6 +178,14 @@ html {
   min-height: 100%;
   margin: 50px 0;
   padding: 3%;
+  word-wrap: break-word;
+}
+.ez-card-wide {
+  width: 100%;
+  height: auto;
+  margin: 50px 0;
+  padding: 3%;
+  word-wrap: break-word;
 }
 
 /*Background colors*/
