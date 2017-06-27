@@ -36,6 +36,10 @@ html {
   box-shadow: 1px 1px 10px #e15151;
 }
 
+.ez-shadow-light-gray {
+  box-shadow: 1px 1px 10px #d9d9d9;
+}
+
 .ez-shadow-gray {
   box-shadow: 1px 1px 10px #7F7F7F;
 }
@@ -81,6 +85,11 @@ html {
 .ez-code-large.ez-text-green {
   border-left-color: #37B264; /*There needs to be a fallback*/
   border-left-color: RGBa(55,178,100,0.7);
+}
+
+.ez-code-large.ez-text-light-gray {
+  border-left-color: #d9d9d9; /*There needs to be a fallback*/
+  border-left-color: RGBa(217,217,217, 0.7);
 }
 
 .ez-code-large.ez-text-gray {
@@ -173,8 +182,12 @@ html {
   position: fixed;
   font-size: 1em;
   top: 0;
-  height: 50px;
+  min-height: 50px;
   padding: 10px;
+}
+
+.ez-topbar * {
+  vertical-align: middle;
 }
 
 .ez-center {
@@ -238,9 +251,6 @@ html {
 }
 
 /*Background colors*/
-.ez-dark-gray {
-  background-color: #333;
-}
 
 .ez-white {
   background-color: #fff;
@@ -262,8 +272,15 @@ html {
   background-color: #e15151;
 }
 
+.ez-light-gray {
+  background-color: #d9d9d9;
+}
+
 .ez-gray {
   background-color: #7F7F7F;
+}
+.ez-dark-gray {
+  background-color: #333;
 }
 
 .ez-black {
@@ -293,6 +310,10 @@ html {
 
 .ez-text-red {
   color: #e15151;
+}
+
+.ez-text-light-gray {
+  color: #d9d9d9;
 }
 
 .ez-text-gray {
@@ -351,6 +372,10 @@ html {
 
 .ez-text-shadow-red {
   text-shadow: 1px 1px 10px #e15151;
+}
+
+.ez-text-shadow-light-gray {
+  text-shadow: 1px 1px 10px #d9d9d9;
 }
 
 .ez-text-shadow-gray {
