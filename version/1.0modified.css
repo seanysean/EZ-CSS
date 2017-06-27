@@ -44,21 +44,66 @@ html {
   box-shadow: 1px 1px 10px #333;
 }
 
-/*Basic features*/
+/*Code sample stuff*/
+
 .ez-code-small {
   padding: 3px;
-  font-weight: 100;
+  font-weight: 200;
   border-radius: 5px;
 }
 
 .ez-code-large {
   padding: 3px;
-  font-weight: 100;
-  border-radius: 5px;
+  font-weight: 200;
   display: block;
   width: 95%;
-  margin: 10px auto;
+  text-align: left;
+  margin: 20px auto;
+  box-sizing: border-box;
+  border-left: 5px solid transparent;
 }
+
+.ez-code-large.ez-text-red {
+  border-left-color: #e15151; /*There needs to be a fallback*/
+  border-left-color: RGBa(225,81,81,0.7);
+}
+
+.ez-code-large.ez-text-blue {
+  border-left-color: #06F; /*There needs to be a fallback*/
+  border-left-color: RGBa(0,102,255, 0.7);
+}
+
+.ez-code-large.ez-text-light-blue {
+  border-left-color: #34AAF2; /*There needs to be a fallback*/
+  border-left-color: RGBa(52,170,242,0.7);
+}
+
+.ez-code-large.ez-text-green {
+  border-left-color: #37B264; /*There needs to be a fallback*/
+  border-left-color: RGBa(55,178,100,0.7);
+}
+
+.ez-code-large.ez-text-gray {
+  border-left-color: #7F7F7F; /*There needs to be a fallback*/
+  border-left-color: RGBa(127,127,127, 0.7);
+}
+
+.ez-code-large.ez-text-dark-gray {
+  border-left-color: #333; /*There needs to be a fallback*/
+  border-left-color: RGBa(51,51,51,0.7);
+}
+
+.ez-code-large.ez-text-black {
+  border-left-color: #000; /*There needs to be a fallback*/
+  border-left-color: RGBa(0,0,0,0.7);
+}
+
+.ez-code-large.ez-text-white {
+  border-left-color: #fff; /*There needs to be a fallback*/
+  border-left-color: RGBa(205,205,205, 0.7);
+}
+
+/*Basic features*/
 
 .ez-circle {
   border-radius: 50%;
