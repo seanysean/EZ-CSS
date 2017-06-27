@@ -103,6 +103,10 @@ html {
   border-left-color: RGBa(205,205,205, 0.7);
 }
 
+.ez-code-large {
+  overflow-x: auto; /*For when user decides to use <pre>*/
+}
+
 /*Basic features*/
 
 .ez-circle {
