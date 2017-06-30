@@ -1,0 +1,82 @@
+body {
+  height: auto;
+
+}
+.header-image {
+  float: left;
+  height: 50px;
+  width: 50px
+}
+.ez-topbar{
+  text-align: center;
+  line-height: 50px;
+}
+.ez-topbar .icon {
+  cursor: pointer;
+  font-size: 50px !important;
+  line-height: 50px;
+  margin: 0 10px;
+  float:right;
+  transition: 0.25s ease;
+}
+.ez-topbar .icon:hover {
+  color: #fff;
+}
+.ez-card-1 {
+  min-height: 500px;
+  margin: 100px auto;
+}
+.doc-title {
+  font-family: Courier;
+}
+.quick-info {
+  float: right;
+}
+.quick-info a{
+  color: #06f;
+  text-decoration: none;
+}
+.quick-info a:hover {
+  text-decoration: underline;
+}
+.content {
+  color: #333;
+  font-size: 1.3em;
+  font-family: serif;
+}
+.code-example {
+  clear: left;
+}
+footer {
+  height: 100px;
+}
+.bottom-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  transition: 0.25s ease;
+  border-bottom: 3px solid transparent;
+  line-height: 100px;
+}
+.bottom-link:hover {
+  color: #d9d9d9;
+  border-bottom-color: #fff;
+}
+.links-right {
+  float: right;
+}
+.links-right a {
+  color: #06f;
+  line-height: 100px;
+}
+.links-right a:hover {
+  color: #08f;
+  text-decoration: none;
+}
+@media (max-width: 505px) {
+  .quick-info {
+    margin: 10px auto;
+    float: none;
+    width: 100%;
+  }
+}
