@@ -36,6 +36,10 @@ html {
   box-shadow: 1px 1px 10px #e15151;
 }
 
+.ez-shadow-dark-red {
+  box-shadow: 1px 1px 10px #873030;
+}
+
 .ez-shadow-light-gray {
   box-shadow: 1px 1px 10px #d9d9d9;
 }
@@ -69,6 +73,11 @@ html {
 .ez-code-large.ez-text-red {
   border-left-color: #e15151; /*There needs to be a fallback*/
   border-left-color: RGBa(225,81,81,0.7);
+}
+
+.ez-code-large.ez-text-dark-red {
+  border-left-color: #873030; /*There needs to be a fallback*/
+  border-left-color: RGBa(135,48,48,0.7);
 }
 
 .ez-code-large.ez-text-blue {
@@ -279,6 +288,10 @@ html {
   background-color: #e15151;
 }
 
+.ez-dark-red {
+  background-color: #873030;
+}
+
 .ez-light-gray {
   background-color: #d9d9d9;
 }
@@ -317,6 +330,10 @@ html {
 
 .ez-text-red {
   color: #e15151;
+}
+
+.ez-text-dark-red {
+  color: #873030;
 }
 
 .ez-text-light-gray {
@@ -379,6 +396,10 @@ html {
 
 .ez-text-shadow-red {
   text-shadow: 1px 1px 10px #e15151;
+}
+
+.ez-text-shadow-dark-red {
+  text-shadow: 1px 1px 10px #873030;
 }
 
 .ez-text-shadow-light-gray {
