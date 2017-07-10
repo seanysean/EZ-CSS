@@ -52,6 +52,10 @@ html {
   box-shadow: 1px 1px 10px #E1821E;
 }
 
+.ez-shadow-yellow {
+  box-shadow: 1px 1px 10px #E1C51E;
+}
+
 .ez-shadow-light-gray {
   box-shadow: 1px 1px 10px #d9d9d9;
 }
@@ -95,6 +99,11 @@ html {
 .ez-code-large.ez-text-orange{
   border-left-color: #E1821E; /*There needs to be a fallback*/
   border-left-color: RGBa(225,130,30,0.7);
+}
+
+.ez-code-large.ez-text-yellow{
+  border-left-color: #E1C51E; /*There needs to be a fallback*/
+  border-left-color: RGBa(225,197,30,0.7);
 }
 
 .ez-code-large.ez-text-blue {
@@ -148,7 +157,7 @@ html {
 }
 
 .ez-code-large {
-  overflow-x: auto; /*For when user decides to use <pre>*/
+  overflow-x: auto; /*For if the user decides to use <pre>*/
 }
 
 /*Basic features*/
@@ -331,6 +340,10 @@ html {
   background-color: #E1821E;
 }
 
+.ez-yellow {
+  background-color: #E1C51E;
+}
+
 .ez-light-gray {
   background-color: #d9d9d9;
 }
@@ -338,6 +351,7 @@ html {
 .ez-gray {
   background-color: #7F7F7F;
 }
+
 .ez-dark-gray {
   background-color: #333;
 }
@@ -385,6 +399,10 @@ html {
 
 .ez-text-orange {
   color: #E1821E;
+}
+
+.ez-text-yellow {
+  color: #E1C51E;
 }
 
 .ez-text-light-gray {
@@ -463,6 +481,10 @@ html {
 
 .ez-text-shadow-orange {
   text-shadow: 1px 1px 10px #E1821E;
+}
+
+.ez-text-shadow-yellow {
+  text-shadow: 1px 1px 10px #E1C51E;
 }
 
 .ez-text-shadow-light-gray {
