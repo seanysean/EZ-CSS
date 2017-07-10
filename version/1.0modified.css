@@ -20,6 +20,10 @@ html {
   box-shadow: 1px 1px 10px #000;
 }
 
+.ez-shadow-light-green {
+  box-shadow: 1px 1px 10px #87D0A2;
+}
+
 .ez-shadow-green {
   box-shadow: 1px 1px 10px #37B264;
 }
@@ -88,6 +92,11 @@ html {
 .ez-code-large.ez-text-light-blue {
   border-left-color: #34AAF2; /*There needs to be a fallback*/
   border-left-color: RGBa(52,170,242,0.7);
+}
+
+.ez-code-large.ez-text-light-green {
+  border-left-color: #87D0A2; /*There needs to be a fallback*/
+  border-left-color: RGBa(135,208,162,0.7);
 }
 
 .ez-code-large.ez-text-green {
@@ -272,6 +281,10 @@ html {
   background-color: #fff;
 }
 
+.ez-light-green {
+  background-color: #87D0A2;
+}
+
 .ez-green {
   background-color: #37B264;
 }
@@ -314,6 +327,10 @@ html {
 
 .ez-text-white {
   color: #fff;
+}
+
+.ez-text-light-green {
+  color: #87D0A2;
 }
 
 .ez-text-green {
@@ -382,8 +399,12 @@ html {
   text-shadow: 1px 1px 10px #000;
 }
 
+.ez-text-shadow-light-green {
+  text-shadow: 1px 1px 10px #87D0A2;
+}
+
 .ez-text-shadow-green {
-  text-shadow: 1px 1px 10px #5cb85c;
+  text-shadow: 1px 1px 10px #37B264;
 }
 
 .ez-text-shadow-blue {
