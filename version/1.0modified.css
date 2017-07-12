@@ -7,6 +7,9 @@ body,
 html {
   padding: 0;
   margin: 0;
+}
+
+body {
   font-family: sans-serif, verdana;
   height: 100%;
 }
