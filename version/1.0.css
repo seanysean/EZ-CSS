@@ -1,4 +1,4 @@
-/* EZ-CSS created by Sean B. You can view the project on github: https://github.com/seanysean/EZ-CSS */
+/* Easy.CSS created by Sean B. You can view the project on github: https://github.com/seanysean/Easy.CSS */
 
 * {
   box-sizing: border-box;
@@ -13,46 +13,46 @@ html {
 }
 
 /*box shadows*/
-.ez-shadow-white {
+.ec-shadow-white {
   box-shadow: 1px 1px 10px #fff;
 }
 
-.ez-shadow-black {
+.ec-shadow-black {
   box-shadow: 1px 1px 10px #000;
 }
 
-.ez-shadow-green {
+.ec-shadow-green {
   box-shadow: 1px 1px 10px #37B264;
 }
 
-.ez-shadow-blue {
+.ec-shadow-blue {
   box-shadow: 1px 1px 10px #06F;
 }
 
-.ez-shadow-red {
+.ec-shadow-red {
   box-shadow: 1px 1px 10px #e15151;
 }
 
-.ez-shadow-gray {
+.ec-shadow-gray {
   box-shadow: 1px 1px 10px #7F7F7F;
 }
 
-.ez-shadow-dark-gray {
+.ec-shadow-dark-gray {
   box-shadow: 1px 1px 10px #333;
 }
 
 /*Basic features*/
-.ez-code-small {
+.ec-code-small {
   padding: 3px;
   font-weight: 100;
   border-radius: 5px;
 }
 
-.ez-circle {
+.ec-circle {
   border-radius: 50%;
 }
 
-.ez-popup {
+.ec-popup {
   display: none;
   position: fixed;
   top: 50%;
@@ -61,11 +61,11 @@ html {
   padding: 10px;
 }
 
-.ez-popup * {
+.ec-popup * {
   display: inline-block;
 }
 
-.ez-button {
+.ec-button {
   text-align: center;
   box-sizing: border-box;
   padding: 10px;
@@ -75,11 +75,11 @@ html {
   cursor: pointer;
 }
 
-.ez-button:hover {
+.ec-button:hover {
   opacity: 0.8;
 }
 
-.ez-overlay {
+.ec-overlay {
   position: fixed;
   display: none;
   width: 100%;
@@ -93,12 +93,12 @@ html {
   z-index: 1;
 }
 
-.ez-footer {
+.ec-footer {
   padding: 10px;
   box-sizing: content-box;
 }
 
-.ez-topbar {
+.ec-topbar {
   width: 100%;
   position: fixed;
   font-size: 1em;
@@ -108,21 +108,21 @@ html {
 }
 
 /*Cards*/
-.ez-card {
+.ec-card {
   display: inline-block;
   vertical-align: top;
   padding: 20px;
   word-wrap: break-word;
 }
 
-.ez-card-1 {
+.ec-card-1 {
   width: 97%;
   margin: 10px auto;
   padding: 20px;
   word-wrap: break-word;
 }
 
-.ez-card-2 {
+.ec-card-2 {
   width: 45%;
   margin: 1%;
   margin-left: 1.4%;
@@ -132,7 +132,7 @@ html {
   word-wrap: break-word;
 }
 
-.ez-card-3 {
+.ec-card-3 {
   width: 26%;
   margin: 5%;
   margin-left: 1.4%;
@@ -142,11 +142,11 @@ html {
   word-wrap: break-word;
 }
 
-.ez-fixed {
+.ec-fixed {
   position: fixed;
 }
 
-.ez-card-full {
+.ec-card-full {
   width: 100%;
   height: 100%;
   margin: 20px 0;
@@ -154,142 +154,142 @@ html {
 }
 
 /*Background colors*/
-.ez-dark-gray {
+.ec-dark-gray {
   background-color: #333;
 }
 
-.ez-white {
+.ec-white {
   background-color: #fff;
 }
 
-.ez-green {
+.ec-green {
   background-color: #37B264;
 }
 
-.ez-blue {
+.ec-blue {
   background-color: #06F;
 }
 
-.ez-red {
+.ec-red {
   background-color: #e15151;
 }
 
-.ez-gray {
+.ec-gray {
   background-color: #7F7F7F;
 }
 
 /*Text colors*/
-.ez-text-dark-gray {
+.ec-text-dark-gray {
   color: #333;
 }
 
-.ez-text-white {
+.ec-text-white {
   color: #fff;
 }
 
-.ez-text-green {
+.ec-text-green {
   color: #37B264;
 }
 
-.ez-text-blue {
+.ec-text-blue {
   color: #06F;
 }
 
-.ez-text-red {
+.ec-text-red {
   color: #e15151;
 }
 
-.ez-text-gray {
+.ec-text-gray {
   color: #7F7F7F;
 }
 
-.ez-text-black {
+.ec-text-black {
   color: #000;
 }
 
 /*Text Sizes*/
-.ez-very-small {
+.ec-very-small {
   font-size: 0.6em;
 }
 
-.ez-small {
+.ec-small {
   font-size: 0.8em;
 }
 
-.ez-medium {
+.ec-medium {
   font-size: 1em;
 }
 
-.ez-medium-large {
+.ec-medium-large {
   font-size: 1.5em;
 }
 
-.ez-large {
+.ec-large {
   font-size: 2em;
 }
 
-.ez-very-large {
+.ec-very-large {
   font-size: 2.3em;
 }
 
 /*Text shadows*/
-.ez-text-shadow-white {
+.ec-text-shadow-white {
   text-shadow: 1px 1px 10px #fff;
 }
 
-.ez-text-shadow-black {
+.ec-text-shadow-black {
   text-shadow: 1px 1px 10px #000;
 }
 
-.ez-text-shadow-green {
+.ec-text-shadow-green {
   text-shadow: 1px 1px 10px #5cb85c;
 }
 
-.ez-text-shadow-blue {
+.ec-text-shadow-blue {
   text-shadow: 1px 1px 10px #06F;
 }
 
-.ez-text-shadow-red {
+.ec-text-shadow-red {
   text-shadow: 1px 1px 10px #e15151;
 }
 
-.ez-text-shadow-gray {
+.ec-text-shadow-gray {
   text-shadow: 1px 1px 10px #7F7F7F;
 }
 
-.ez-text-shadow-dark-gray {
+.ec-text-shadow-dark-gray {
   text-shadow: 1px 1px 10px #333;
 }
 
-.ez-center {
+.ec-center {
   margin: auto;
   display: inline-block;
   text-align: center;
 }
 
 @media (max-width: 650px) {
-  .ez-card-2,
-  .ez-card-1 {
+  .ec-card-2,
+  .ec-card-1 {
     width: 90%;
     margin-top: 10px;
     display: block;
     margin: 20px auto;
   }
 
-  .ez-card-3 {
+  .ec-card-3 {
     width: 38%;
     margin-top: 10px;
     margin: 5%;
   }
 }
 @media (max-width: 505px) {
-  .ez-card-3 {
+  .ec-card-3 {
     width: 90%;
     margin-top: 10px;
     margin: 20px auto;
     display: block;
   }
-  .ez-card-1, .ez-card-2, .ez-card-3, .ez-card-full {
+  .ec-card-1, .ec-card-2, .ec-card-3, .ec-card-full {
     padding: 20px;
   }
 }

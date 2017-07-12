@@ -3,11 +3,11 @@
   height: 50px;
   width: 50px
 }
-.ez-topbar{
+.ec-topbar{
   text-align: center;
   line-height: 50px;
 }
-.ez-topbar .icon {
+.ec-topbar .icon {
   cursor: pointer;
   font-size: 50px !important;
   line-height: 50px;
@@ -15,10 +15,10 @@
   float:right;
   transition: 0.25s ease;
 }
-.ez-topbar .icon:hover {
+.ec-topbar .icon:hover {
   color: #fff;
 }
-.ez-card-1 {
+.ec-card-1 {
   min-height: 500px;
   margin: 100px auto;
 }
