@@ -40,6 +40,11 @@
   font-size: 1.3em;
   font-family: serif;
 }
+
+ol {
+  font-family: sans-serif, verdana;
+}
+
 .code-example {
   clear: left;
 }
