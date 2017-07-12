@@ -16,8 +16,12 @@ html {
   box-shadow: 1px 1px 10px #fff;
 }
 
-.ez-shadow-black {
-  box-shadow: 1px 1px 10px #000;
+.ez-shadow-red {
+  box-shadow: 1px 1px 10px #e15151;
+}
+
+.ez-shadow-dark-red {
+  box-shadow: 1px 1px 10px #873030;
 }
 
 .ez-shadow-light-green {
@@ -32,20 +36,12 @@ html {
   box-shadow: 1px 1px 10px #216A3C;
 }
 
-.ez-shadow-blue {
-  box-shadow: 1px 1px 10px #06F;
-}
-
 .ez-shadow-light-blue {
   box-shadow: 1px 1px 10px #34AAF2;
 }
 
-.ez-shadow-red {
-  box-shadow: 1px 1px 10px #e15151;
-}
-
-.ez-shadow-dark-red {
-  box-shadow: 1px 1px 10px #873030;
+.ez-shadow-blue {
+  box-shadow: 1px 1px 10px #06F;
 }
 
 .ez-shadow-orange {
@@ -68,6 +64,10 @@ html {
   box-shadow: 1px 1px 10px #333;
 }
 
+.ez-shadow-black {
+  box-shadow: 1px 1px 10px #000;
+}
+
 /*Code sample stuff*/
 
 .ez-code-small {
@@ -86,6 +86,11 @@ html {
   border-left: 5px solid transparent;
 }
 
+.ez-code-large.ez-text-white {
+  border-left-color: #fff; /*There needs to be a fallback*/
+  border-left-color: RGBa(205,205,205, 0.7);
+}
+
 .ez-code-large.ez-text-red {
   border-left-color: #e15151; /*There needs to be a fallback*/
   border-left-color: RGBa(225,81,81,0.7);
@@ -94,26 +99,6 @@ html {
 .ez-code-large.ez-text-dark-red {
   border-left-color: #873030; /*There needs to be a fallback*/
   border-left-color: RGBa(135,48,48,0.7);
-}
-
-.ez-code-large.ez-text-orange{
-  border-left-color: #E1821E; /*There needs to be a fallback*/
-  border-left-color: RGBa(225,130,30,0.7);
-}
-
-.ez-code-large.ez-text-yellow{
-  border-left-color: #E1C51E; /*There needs to be a fallback*/
-  border-left-color: RGBa(225,197,30,0.7);
-}
-
-.ez-code-large.ez-text-blue {
-  border-left-color: #06F; /*There needs to be a fallback*/
-  border-left-color: RGBa(0,102,255, 0.7);
-}
-
-.ez-code-large.ez-text-light-blue {
-  border-left-color: #34AAF2; /*There needs to be a fallback*/
-  border-left-color: RGBa(52,170,242,0.7);
 }
 
 .ez-code-large.ez-text-light-green {
@@ -129,6 +114,26 @@ html {
 .ez-code-large.ez-text-dark-green {
   border-left-color: #216A3C; /*There needs to be a fallback*/
   border-left-color: RGBa(33,106,60,0.7);
+}
+
+.ez-code-large.ez-text-blue {
+  border-left-color: #06F; /*There needs to be a fallback*/
+  border-left-color: RGBa(0,102,255, 0.7);
+}
+
+.ez-code-large.ez-text-light-blue {
+  border-left-color: #34AAF2; /*There needs to be a fallback*/
+  border-left-color: RGBa(52,170,242,0.7);
+}
+
+.ez-code-large.ez-text-orange{
+  border-left-color: #E1821E; /*There needs to be a fallback*/
+  border-left-color: RGBa(225,130,30,0.7);
+}
+
+.ez-code-large.ez-text-yellow{
+  border-left-color: #E1C51E; /*There needs to be a fallback*/
+  border-left-color: RGBa(225,197,30,0.7);
 }
 
 .ez-code-large.ez-text-light-gray {
@@ -149,11 +154,6 @@ html {
 .ez-code-large.ez-text-black {
   border-left-color: #000; /*There needs to be a fallback*/
   border-left-color: RGBa(0,0,0,0.7);
-}
-
-.ez-code-large.ez-text-white {
-  border-left-color: #fff; /*There needs to be a fallback*/
-  border-left-color: RGBa(205,205,205, 0.7);
 }
 
 .ez-code-large {
@@ -308,6 +308,14 @@ html {
   background-color: #fff;
 }
 
+.ez-red {
+  background-color: #e15151;
+}
+
+.ez-dark-red {
+  background-color: #873030;
+}
+
 .ez-light-green {
   background-color: #87D0A2;
 }
@@ -326,14 +334,6 @@ html {
 
 .ez-light-blue {
   background-color: #34AAF2;
-}
-
-.ez-red {
-  background-color: #e15151;
-}
-
-.ez-dark-red {
-  background-color: #873030;
 }
 
 .ez-orange {
@@ -361,12 +361,17 @@ html {
 }
 
 /*Text colors*/
-.ez-text-dark-gray {
-  color: #333;
-}
 
 .ez-text-white {
   color: #fff;
+}
+
+.ez-text-red {
+  color: #e15151;
+}
+
+.ez-text-dark-red {
+  color: #873030;
 }
 
 .ez-text-light-green {
@@ -389,14 +394,6 @@ html {
   color: #34AAF2;
 }
 
-.ez-text-red {
-  color: #e15151;
-}
-
-.ez-text-dark-red {
-  color: #873030;
-}
-
 .ez-text-orange {
   color: #E1821E;
 }
@@ -411,6 +408,10 @@ html {
 
 .ez-text-gray {
   color: #7F7F7F;
+}
+
+.ez-text-dark-gray {
+  color: #333;
 }
 
 .ez-text-black {
@@ -443,12 +444,17 @@ html {
 }
 
 /*Text shadows*/
+
 .ez-text-shadow-white {
   text-shadow: 1px 1px 10px #fff;
 }
 
-.ez-text-shadow-black {
-  text-shadow: 1px 1px 10px #000;
+.ez-text-shadow-red {
+  text-shadow: 1px 1px 10px #e15151;
+}
+
+.ez-text-shadow-dark-red {
+  text-shadow: 1px 1px 10px #873030;
 }
 
 .ez-text-shadow-light-green {
@@ -471,14 +477,6 @@ html {
   text-shadow: 1px 1px 10px #34AAF2;
 }
 
-.ez-text-shadow-red {
-  text-shadow: 1px 1px 10px #e15151;
-}
-
-.ez-text-shadow-dark-red {
-  text-shadow: 1px 1px 10px #873030;
-}
-
 .ez-text-shadow-orange {
   text-shadow: 1px 1px 10px #E1821E;
 }
@@ -497,6 +495,10 @@ html {
 
 .ez-text-shadow-dark-gray {
   text-shadow: 1px 1px 10px #333;
+}
+
+.ez-text-shadow-black {
+  text-shadow: 1px 1px 10px #000;
 }
 
 @media (max-width: 650px) {
