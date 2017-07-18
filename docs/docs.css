@@ -3,9 +3,18 @@
   height: 50px;
   width: 50px
 }
+.ec-code-small {
+  font-family: sans-serif, verdana !important;
+}
+li ul {
+  font-size: 15px;
+}
 .ec-topbar{
   text-align: center;
   line-height: 50px;
+}
+.ec-topbar a {
+  text-decoration: none;
 }
 .ec-topbar .icon {
   cursor: pointer;
