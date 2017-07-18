@@ -45,7 +45,7 @@ body {
 }
 
 .ec-shadow-blue {
-  box-shadow: 1px 1px 10px #06F;
+  box-shadow: 1px 1px 10px #069;
 }
 
 .ec-shadow-orange {
@@ -121,7 +121,7 @@ body {
 }
 
 .ec-code-large.ec-text-blue {
-  border-left-color: #06F; /*There needs to be a fallback*/
+  border-left-color: #069; /*There needs to be a fallback*/
   border-left-color: RGBa(0,102,255, 0.7);
 }
 
@@ -333,7 +333,7 @@ body {
 }
 
 .ec-blue {
-  background-color: #06F;
+  background-color: #069;
 }
 
 .ec-light-blue {
@@ -391,7 +391,7 @@ body {
 }
 
 .ec-text-blue {
-  color: #06f;
+  color: #069;
 }
 
 .ec-text-light-blue {
@@ -474,7 +474,7 @@ body {
 }
 
 .ec-text-shadow-blue {
-  text-shadow: 1px 1px 10px #06F;
+  text-shadow: 1px 1px 10px #069;
 }
 
 .ec-text-shadow-light-blue {
